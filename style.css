@@ -126,8 +126,19 @@ header a:hover {
 
 /*Random info section*/
 
+
+
 .random-info .wrapper {
     justify-content: center;
+    padding: 70px 0;
+}
+
+.random-info h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900px;
+    margin-top: 0;
+
 }
 
 .random-info {

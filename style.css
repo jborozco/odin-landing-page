@@ -226,3 +226,14 @@ header a:hover {
     background-color: #f9faf8;
     color: #3882f6;
 }
+
+/*Footer section*/
+
+footer {
+    padding: 30px 0;
+}
+
+.copyright {
+    text-align: center;
+    color: #E5E7EB;
+}

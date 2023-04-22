@@ -27,7 +27,7 @@ body {
 
 
 .wrapper {
-    width: 1200px;
+    width: 1000px;
 
 }
 
@@ -78,10 +78,48 @@ ul {
 header a {
     margin-left: 16px;
     color: #e5e7eb;
+    font-size: 16px;
 }
 
 header a:hover {
     text-decoration: underline;
     margin-left: 16px;
     font-size: 16px;
+}
+
+/*Into section*/
+
+.intro .wrapper {
+    align-items: stretch;
+}
+
+.intro-right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    color: white;
+}
+
+.intro-left {
+    margin-right: 50px;
+}
+
+.intro-title {
+    font-size: 48px;
+    margin: 0 0 16px 0;
+}
+
+.intro-text {
+    color: #e5e7eb;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.intro-button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    width: fit-content;
+    padding: 8px 16px;
 }

@@ -123,3 +123,37 @@ header a:hover {
     width: fit-content;
     padding: 8px 16px;
 }
+
+/*Random info section*/
+
+.random-info .wrapper {
+    justify-content: center;
+}
+
+.random-info {
+    text-align: center;
+}
+
+.item-wrapper {
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    margin: 0 16px;
+    color: #1f2937;
+
+}
+
+.square {
+    flex: none;
+    width: 150px;
+    height: 150px;
+    border: solid 2px #3882f6;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
